@@ -1,0 +1,42 @@
+[
+  {
+    "title": "IDEALISTIC",
+    "questions": [
+      { "id": "q1", "text": "I have ambitious aims of making a difference." },
+      { "id": "q2", "text": "I believe in my ability to achieve my goals." },
+      { "id": "q3", "text": "I seek to understand different perspectives." },
+      { "id": "q4", "text": "I often reflect on my personal values." },
+      { "id": "q5", "text": "I actively pursue my passions and interests." }
+    ]
+  },
+  {
+    "title": "DISILLUSIONED",
+    "questions": [
+      { "id": "q6", "text": "I feel overwhelmed by the challenges I face." },
+      { "id": "q7", "text": "I often feel disillusioned with my current path." },
+      { "id": "q8", "text": "I doubt my ability to make a significant impact." },
+      { "id": "q9", "text": "I rarely feel a sense of accomplishment." },
+      { "id": "q10", "text": "I feel cynical about people's intentions." }
+    ]
+  },
+  {
+    "title": "CYNICAL",
+    "questions": [
+      { "id": "q11", "text": "I struggle to stay motivated in difficult times." },
+      { "id": "q12", "text": "I find it hard to stay positive in tough situations." },
+      { "id": "q13", "text": "I often feel misunderstood." },
+      { "id": "q14", "text": "I find it difficult to trust others." },
+      { "id": "q15", "text": "I question the value of my efforts." }
+    ]
+  },
+  {
+    "title": "HOPEFUL",
+    "questions": [
+      { "id": "q16", "text": "I am satisfied with my current progress in life." },
+      { "id": "q17", "text": "I feel hopeful about my future." },
+      { "id": "q18", "text": "I prioritize my well-being and mental health." },
+      { "id": "q19", "text": "I feel hopeful about overcoming my challenges." },
+      { "id": "q20", "text": "I often feel uncertain about my future." }
+    ]
+  }
+]

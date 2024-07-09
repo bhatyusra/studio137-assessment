@@ -1,0 +1,173 @@
+/* App.css */
+
+body {
+  background-color: #a7d1d2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  color: #e74c3c;
+}
+
+.questionnaire {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 900px; /* Increased width for a larger card */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.tab-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.tab {
+  padding: 15px 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.tab.active {
+  color: #1abc9c;
+  border-bottom: 2px solid #1abc9c;
+}
+
+.question-container {
+  text-align: center;
+}
+
+.question-header {
+  margin-bottom: 30px;
+}
+
+.question-header h2 {
+  margin: 10px 0;
+}
+
+.options-line {
+  position: relative;
+  margin: 20px auto; /* Center the line */
+  height: 50px; /* Adjust height to fit text below points */
+  width: 80%; /* Set width to 80% to make it 20% smaller */
+}
+
+.line-background {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #ccc;
+  transform: translateY(-50%);
+}
+
+.line-progress {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  background: #1abc9c;
+  transform: translateY(-50%);
+  transition: width 0.3s;
+}
+
+.option-point {
+  position: absolute;
+  top: 50%;
+  width: 15px; /* Adjust width to fit your design */
+  height: 15px; /* Adjust height to fit your design */
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s;
+  transform: translateY(-50%);
+}
+
+.option-point:hover {
+  background: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.options-text {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px; /* Reduced margin-top to bring text closer to points */
+  width: 75%; /* Set width to 75% to match options-line width */
+  margin-left: auto; /* Center the text */
+  margin-right: auto; /* Center the text */
+}
+
+.options-text span {
+  position: absolute;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: color 0.3s;
+  text-align: center;
+  font-weight: bold; /* Make the text bold */
+}
+
+.options-text span:hover {
+  color: #1abc9c;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.navigation-buttons button {
+  padding: 15px 25px;
+  border: none;
+  background: #1abc9c;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navigation-buttons button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.progress {
+  height: 5px;
+  background-color: #4caf50;
+  transition: width 0.3s;
+}
